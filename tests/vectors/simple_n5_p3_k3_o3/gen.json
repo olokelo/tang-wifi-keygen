@@ -1,0 +1,144 @@
+{
+	"results": [
+		{
+			"ssid": "asus",
+			"bssid": "BE:13:A4:C2:03:CC",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -60,
+			"quality": 50,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "vision",
+			"bssid": "95:3D:FC:12:30:25",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -60,
+			"quality": 50,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "2.4ghz",
+			"bssid": "14:13:A2:C0:88:B3",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -84,
+			"quality": 26,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "Hotspot",
+			"bssid": "90:32:F3:9C:2A:74",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -84,
+			"quality": 26,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		},
+		{
+			"ssid": "homewifi",
+			"bssid": "BC:DD:62:67:58:C5",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -62,
+			"quality": 48,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [
+					2
+				],
+				"authentication": [
+					"psk"
+				],
+				"ciphers": [
+					"ccmp"
+				]
+			}
+		}
+	]
+}

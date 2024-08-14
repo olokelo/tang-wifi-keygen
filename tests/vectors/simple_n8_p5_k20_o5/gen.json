@@ -1,0 +1,180 @@
+{
+	"results": [
+		{
+			"ssid": "GreenWifi_6437",
+			"bssid": "FC:A1:3E:B2:C8:5D",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -67,
+			"quality": 43,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "WiFi_Public_1749",
+			"bssid": "D0:3B:C8:F3:1B:62",
+			"mode": "Master",
+			"band": 2,
+			"channel": 6,
+			"mhz": 2437,
+			"signal": -75,
+			"quality": 35,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 6,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "HomeHub_8956",
+			"bssid": "3C:71:F0:C4:A7:D9",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -80,
+			"quality": 30,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 11,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [3],
+				"authentication": ["sae"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "Netgear_5648",
+			"bssid": "C0:7D:C2:9A:21:AD",
+			"mode": "Master",
+			"band": 2,
+			"channel": 3,
+			"mhz": 2422,
+			"signal": -65,
+			"quality": 45,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 3,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "MyWiFi_4321",
+			"bssid": "80:9E:7D:F1:A5:C6",
+			"mode": "Master",
+			"band": 2,
+			"channel": 9,
+			"mhz": 2452,
+			"signal": -70,
+			"quality": 39,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 9,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1],
+				"authentication": ["psk"],
+				"ciphers": ["tkip"]
+			}
+		},
+		{
+			"ssid": "TP-Link_7896",
+			"bssid": "D4:F4:6F:C3:A2:B7",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -78,
+			"quality": 32,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "WifiSpot_1234",
+			"bssid": "90:5B:F8:C6:A3:E7",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -60,
+			"quality": 49,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "Linksys_6789",
+			"bssid": "40:B3:5F:E1:C4:D8",
+			"mode": "Master",
+			"band": 2,
+			"channel": 10,
+			"mhz": 2457,
+			"signal": -72,
+			"quality": 38,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 10,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [3],
+				"authentication": ["sae"],
+				"ciphers": ["ccmp"]
+			}
+		}
+	]
+}

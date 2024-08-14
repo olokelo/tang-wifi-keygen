@@ -1,0 +1,352 @@
+{
+	"results": [
+		{
+			"ssid": "RandomNet-9753",
+			"bssid": "A8:B7:C6:D5:E4:F3",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -60,
+			"quality": 45,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "SecureSpot-7134",
+			"bssid": "B9:80:F1:C2:D3:E4",
+			"mode": "Master",
+			"band": 2,
+			"channel": 6,
+			"mhz": 2437,
+			"signal": -55,
+			"quality": 50,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 6,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "FreeWiFi-3945",
+			"bssid": "C0:A9:B8:C7:D6:E5",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -70,
+			"quality": 35,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 11,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": false
+			}
+		},
+		{
+			"ssid": "Belkin_5678",
+			"bssid": "0C:9F:C2:3A:E4:0D",
+			"mode": "Master",
+			"band": 2,
+			"channel": 4,
+			"mhz": 2427,
+			"signal": -76,
+			"quality": 34,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 4,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [3],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"bssid": "E2:91:A0:C9:B8:D7",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -50,
+			"quality": 55,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "below",
+				"channel_width": 40
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "NetNow-5367",
+			"bssid": "F3:82:A1:C0:B9:A8",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -55,
+			"quality": 50,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 11,
+				"secondary_channel_offset": "above",
+				"channel_width": 40
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2, 3],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "ConnectMe-4568",
+			"bssid": "G0:A3:B2:C1:A0:99",
+			"mode": "Master",
+			"band": 2,
+			"channel": 7,
+			"mhz": 2447,
+			"signal": -75,
+			"quality": 28,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 7,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "WiFiLife-3479",
+			"bssid": "H1:B4:A3:C2:B1:A0",
+			"mode": "Master",
+			"band": 2,
+			"channel": 5,
+			"mhz": 2442,
+			"signal": -60,
+			"quality": 45,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 5,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "FastNet-7654",
+			"bssid": "I2:95:B4:A3:C1:B0",
+			"mode": "Master",
+			"band": 2,
+			"channel": 10,
+			"mhz": 2457,
+			"signal": -65,
+			"quality": 40,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 10,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [3],
+				"authentication": ["sae"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "HomeNet-1234",
+			"bssid": "J3:86:A5:C4:B3:A2",
+			"mode": "Master",
+			"band": 2,
+			"channel": 9,
+			"mhz": 2452,
+			"signal": -70,
+			"quality": 35,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 9,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 3],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "WorkWiFi-5678",
+			"bssid": "K4:77:A6:C5:B4:A3",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -50,
+			"quality": 55,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "SecureLink-9876",
+			"bssid": "L5:68:A7:C6:B5:A4",
+			"mode": "Master",
+			"band": 2,
+			"channel": 3,
+			"mhz": 2427,
+			"signal": -60,
+			"quality": 45,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 3,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "WiFiPlus-3456",
+			"bssid": "M6:59:A8:C7:B6:A5",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -65,
+			"quality": 40,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 11,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 40
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2, 3],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "EasyConnect-7890",
+			"bssid": "N7:40:A9:C8:B7:E6",
+			"mode": "Master",
+			"band": 2,
+			"channel": 6,
+			"mhz": 2437,
+			"signal": -55,
+			"quality": 50,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 6,
+				"secondary_channel_offset": "below",
+				"channel_width": 40
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2, 3],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "NetPro-1029",
+			"bssid": "O8:31:A0:C9:B8:D7",
+			"mode": "Master",
+			"band": 2,
+			"channel": 5,
+			"mhz": 2442,
+			"signal": -60,
+			"quality": 45,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 5,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "WiFiZone-4321",
+			"bssid": "P9:22:A1:C0:B9:A8",
+			"mode": "Master",
+			"band": 2,
+			"channel": 7,
+			"mhz": 2447,
+			"signal": -50,
+			"quality": 55,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 7,
+				"secondary_channel_offset": "above",
+				"channel_width": 40
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2, 3],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["ccmp"]
+			}
+		}
+	]
+}

@@ -1,0 +1,5 @@
+n -> total number of networks when generating
+t -> required number of networks to recreate
+
+k -> total number of networks when recreating
+o -> number of the same networks when generating and recreating

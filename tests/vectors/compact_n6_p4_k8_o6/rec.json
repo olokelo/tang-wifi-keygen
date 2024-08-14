@@ -1,0 +1,36 @@
+{
+	"results": [
+		{
+			"ssid": "hello world",
+			"bssid": "33:33:33:33:33:33"
+		},
+		{
+			"ssid": "SomeWiFi",
+			"bssid": "A9:24:9C:03:5E:97"
+		},
+		{
+			"ssid": "hackme",
+			"bssid": "13:37:13:37:13:37"
+		},
+		{
+			"ssid": "cisco",
+			"bssid": "13:90:3A:C7:6B:C1"
+		},
+		{
+			"ssid": "lotsofentropy",
+			"bssid": "3E:FA:38:97:B5:0A"
+		},
+		{
+			"ssid": "abc",
+			"bssid": "AB:CA:BC:AB:CA:BC"
+		},
+		{
+			"ssid": "home",
+			"bssid": "BC:DF:62:67:58:C2"
+		},
+		{
+			"ssid": "pleasedoasisay",
+			"bssid": "98:CF:3E:86:C4:11"
+		}
+	]
+}

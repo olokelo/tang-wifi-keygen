@@ -1,0 +1,28 @@
+{
+	"results": [
+		{
+			"ssid": "abc",
+			"bssid": "AB:CA:BC:AB:CA:BC"
+		},
+		{
+			"ssid": "hello world",
+			"bssid": "33:33:33:33:33:33"
+		},
+		{
+			"ssid": "cisco",
+			"bssid": "13:90:3A:C7:6B:C1"
+		},
+		{
+			"ssid": "lotsofentropy",
+			"bssid": "3E:FA:38:97:B5:0A"
+		},
+		{
+			"ssid": "home",
+			"bssid": "BC:DF:62:67:58:C2"
+		},
+		{
+			"ssid": "hackme",
+			"bssid": "13:37:13:37:13:37"
+		}
+	]
+}

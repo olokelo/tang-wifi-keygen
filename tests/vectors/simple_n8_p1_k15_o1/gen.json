@@ -1,0 +1,180 @@
+{
+	"results": [
+		{
+			"ssid": "Netgear78",
+			"bssid": "FC:FB:1E:0D:C6:8C",
+			"mode": "Master",
+			"band": 2,
+			"channel": 6,
+			"mhz": 2437,
+			"signal": -75,
+			"quality": 35,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 6,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [3],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "HuaweiF9A6",
+			"bssid": "C4:81:56:D0:C7:B2",
+			"mode": "Master",
+			"band": 2,
+			"channel": 11,
+			"mhz": 2462,
+			"signal": -83,
+			"quality": 27,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 11,
+				"secondary_channel_offset": "below",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "TP-Link_9876",
+			"bssid": "B0:E3:C8:F2:4D:51",
+			"mode": "Master",
+			"band": 2,
+			"channel": 1,
+			"mhz": 2412,
+			"signal": -79,
+			"quality": 31,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 1,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "Xiaomi_6789",
+			"bssid": "D4:F4:6B:C5:32:AB",
+			"mode": "Master",
+			"band": 2,
+			"channel": 10,
+			"mhz": 2457,
+			"signal": -82,
+			"quality": 28,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 10,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "Belkin_5678",
+			"bssid": "0C:9F:C2:3A:E4:0D",
+			"mode": "Master",
+			"band": 2,
+			"channel": 4,
+			"mhz": 2427,
+			"signal": -76,
+			"quality": 34,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 4,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [3],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "D-Link_1234",
+			"bssid": "80:B5:9E:FB:F7:6A",
+			"mode": "Master",
+			"band": 2,
+			"channel": 9,
+			"mhz": 2452,
+			"signal": -81,
+			"quality": 29,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 9,
+				"secondary_channel_offset": "no secondary",
+				"channel_width": 2040
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [1, 2],
+				"authentication": ["psk", "sae"],
+				"ciphers": ["tkip", "ccmp"]
+			}
+		},
+		{
+			"ssid": "ASUS_4321",
+			"bssid": "9C:F8:C7:0E:6B:D5",
+			"mode": "Master",
+			"band": 2,
+			"channel": 13,
+			"mhz": 2472,
+			"signal": -74,
+			"quality": 36,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 13,
+				"secondary_channel_offset": "above",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		},
+		{
+			"ssid": "ZTE_CB67",
+			"bssid": "A0:4F:C8:31:35:6D",
+			"mode": "Master",
+			"band": 2,
+			"channel": 6,
+			"mhz": 2437,
+			"signal": -89,
+			"quality": 21,
+			"quality_max": 70,
+			"ht_operation": {
+				"primary_channel": 6,
+				"secondary_channel_offset": "below",
+				"channel_width": 20
+			},
+			"encryption": {
+				"enabled": true,
+				"wpa": [2],
+				"authentication": ["psk"],
+				"ciphers": ["ccmp"]
+			}
+		}
+	]
+}
