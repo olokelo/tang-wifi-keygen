@@ -25,9 +25,34 @@ The second logical step would be to derive key from detected SSID and MAC addres
 
 The third approach is the one actually used as of the first version of Tang Key Generator. Wi-Fi networks form a `hashplane` which is then used as an input to `PBKDF2-HMAC` function which hashes plane many times, with salt and `HMAC`. It shares similarities with how passwords are treated. You can think of `hashplane` as fairly lengthy password created from Wi-Fi networks around the device.
 
+Hashplane
+```
+DEADBEEFDEADBEEFDEADBEEF CAFEBABECAFEBABECAFEBABE B16B00B5B16B00B5B16B00B5 DEADC0DEDEADC0DEDEADC0DE
+h(ssid0+mac0)            h(ssid1+mac1)            h(ssid2+mac2)            h(ssid3+mac3)
+^                        ^                        ^                        ^
+0                        12                       24                       36
+```
+
 There comes the issue how do we know if the Wi-Fi network detected was a part of original `hashplane`. To overcome this we create a second plane referred to as `controlplane` which contains very short checksums of each network forming a `hashplane` in the correct order. `controlplane` **needs** to be preserved across server reboots. The checksums in `controlplane` are intentionally insecure to produce a lot of collisions yet still be somewhat reliable to decide if we should use this network in `hashplane`. If the attacker gained access to the `controlplane` saved in `metafile` on the disk, it should be impossible to "reverse" those checksums and get clear input. Currently the preferred length of such checksum is `3 bytes` == `24 bits`. Assuming that one Wi-Fi network gives us around `64 bits` of entropy (`~40 bits` MAC + `~24 bits` SSID), each checksum should have around `2**40` collisions. If we used 6 networks to form the planes, the attacker would have `(2**40)**5` inputs to brute-force (`~200 bits` strength). Note that this part is purely theoretical and in fact depending on hash length used in `hashplane` (`12 bytes` by default), collisions on that hash would probably also occur.
 
+Controlplane
+```
+F0000D CAAAAB D00D33 FAAD33
+c(s0+m0)      c(s2+m2)
+       c(s1+m1)      c(s3+m3)
+^      ^      ^      ^
+0      3      6      9
+```
+
 Next problem is that we can't expect to have all Wi-Fi networks forming `hashplane` available at all times yet we still need to reconstruct the `hashplane` and derive `key` from it. There are many approaches to this issue possibly involving [fuzzy hashing](https://en.wikipedia.org/wiki/Fuzzy_hashing) or even some form of [Shamir Secret Sharing](https://en.wikipedia.org/wiki/Shamir%27s_secret_sharing) which the original Tang uses, however it's crucial to recreate entire `hashplane` to get the key and not just determine how similar it is to the original one. After considering the options, none of them made much sense for this specific use-case. The simplest and best (for now) approach is to use Reed-Solomon which allows to recreate lost parts of the `hashplane`. Keep in mind, Reed-Solomon recovery data is also stored in `metafile` unencrypted so it's wise not to include too much of it.
+
+Hashplane with 2 networks lost
+```
+DEADBEEFDEADBEEFDEADBEEF 000000000000000000000000 B16B00B5B16B00B5B16B00B5 000000000000000000000000
+h(ssid0+mac0)            h(ssid1+mac1)            h(ssid2+mac2)            h(ssid3+mac3)
+^                        ^                        ^                        ^
+0                        12                       24                       36
+```
 
 Here's how much `key` entropy we get after allowing up to `r` networks to be lost assuming default configuration (`96 bit` hash, `512 bit` key)
 | `r` networks lost | `key` entropy | safe        |

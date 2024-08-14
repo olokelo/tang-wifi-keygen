@@ -1,0 +1,8 @@
+{
+	"user": "tang",
+	"access": {
+		"iwinfo": {
+			"methods": [ "scan" ]
+		}
+	}
+}

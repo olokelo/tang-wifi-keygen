@@ -1,0 +1,6 @@
+config twkg 'config'
+	option enabled '0'
+	option device 'phy0-ap0'
+	option port '9090'
+	option retries '10'
+

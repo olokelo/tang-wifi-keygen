@@ -1,0 +1,40 @@
+#!/bin/sh
+
+TANG_PORT=$1
+WIFI_SCAN_DEV=$2
+RETRIES=$3
+
+counter=0
+failed=1
+
+if [ ! -f "/usr/share/twkg/metafile.bin" ]; then
+  echo "twkg metafile not found, please create it with tkwg gen" 1>&2
+fi
+
+# try $RETRIES times to recreate the key
+while [ $counter -lt ${RETRIES} ]; do
+
+  echo "twkg reconstruction attempt ${counter}/${RETRIES}" 1>&2
+
+  /bin/ubus call iwinfo scan "{\"device\":\"${WIFI_SCAN_DEV}\"}" | /usr/sbin/twkg rec /usr/share/twkg/metafile.bin /tmp/tang/db
+  if [ $? -eq 0 ]; then
+    failed=0
+    break
+  fi
+
+  counter=$((counter + 1))
+
+  # wait a bit for device to rescan networks
+  sleep 20
+
+done
+
+# recreation failed
+if [ $failed -eq 1 ]; then
+  echo "twkg reconstruction failed" 1>&2
+  exit 1
+fi
+
+echo "twkg reconstruction succeeded" 1>&2
+
+/usr/sbin/tangd -p "${TANG_PORT}" -l /tmp/tang/db
